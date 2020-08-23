@@ -13,6 +13,7 @@
             content="width=device-width, initial-scale=1, user-scalable=no"
         />
         <link rel="stylesheet" href="assets/css/main.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
     </head>
     <body class="is-preload">
         <!-- Header -->
@@ -158,8 +159,8 @@
                                 <a href="https://github.com/moods2/Paldal" class="image fit"
                                     ><img src="images/pic02.jpg" alt=""
                                 /></a>
-                                <header>
-                                    <h3>PaldalPlace Project</h3>
+                                <header id="blackbox1" style="background-color: white; height: 63.25px;">
+                                    <h3 id="blackbox1txt">PaldalPlace Project</h3>
                                 </header>
                             </article>
                             <!-- <div id="blackbox fadeinbox">
@@ -169,8 +170,8 @@
                                 <a href="https://github.com/moods2/DoubleDragonCenter" class="image fit"
                                     ><img src="images/pic03.png" alt=""
                                 /></a>
-                                <header>
-                                    <h3>DoubleDragonCenter Project</h3>
+                                <header id="blackbox2" style="background-color: white; height: 63.25px;">
+                                    <h3  id="blackbox2txt" >DoubleDragonCenter Project</h3>
                                 </header>
                             </article>
                         </div>
@@ -182,8 +183,8 @@
                                         src="images/pic04.png"
                                         alt=""
                                 /></a>
-                                <header>
-                                    <h3>At-ticket</h3>
+                                <header id="blackbox3" style="background-color: white; height: 63.25px;">
+                                    <h3  id="blackbox3txt" >At-ticket</h3>
                                 </header>
                             </article>
                             <!-- <article class="item">
@@ -200,16 +201,25 @@
                                 <a href="https://github.com/moods2/portfolio" class="image fit"
                                     ><img src="images/portfolio.PNG" alt=""
                                 /></a>
-                                <header>
-                                    <h3>Portfolio</h3>
+                                
+                                <header id="blackbox4" style="background-color: white; height: 63.25px;">
+                                    
+                                    <h3  id="blackbox4txt" >Portfolio
+                                    
+                                        <!-- HTML5, CSS3, Bootstrap를 이용한<br>
+                                        싱글페이지 포트폴리오 정적 웹 사이트 -->
+                                    </h3>
+                                
                                 </header>
+                            
+                           
                             </article>
                             <article class="item">
                                 <a href="https://github.com/moods2/YogiNolja" class="image fit"
                                     ><img  style="margin-top: 30px; height: 400px;" src="images/pic05.png" alt=""
                                 /></a>
-                                <header>
-                                    <h3>Yoginolja</h3>
+                                <header id="blackbox5" style="background-color: white; height: 63.25px;">
+                                    <h3  id="blackbox5txt" >Yoginolja</h3>
                                 </header>
                             </article>
                         </div>
@@ -411,17 +421,28 @@
                     </h2>
 
                     <div style="border: 1px solid black; width: 800px; margin: 0px auto;">
-                        <div>
+                        <div style="border-bottom: 1px solid black;">
                             <p style="text-align: left; padding-left: 20px; font-weight: bold;">쌍용교육센터 - 수료 <span style="padding-left: 340px; font-weight: normal; font-size: 0.8em;">2020.04.07 ~ 2020.09.18</span></p> 
                             <p style="font-size: 0.6em; font-weight: bold; text-align: left; padding-left: 20px; margin-top: -60px;">Java기반 멀티 플랫폼 응용 SW개발자 양성 과정</p>
-                            <p style="font-size: 0.8em; text-align: left; padding-left: 20px; margin-top: -30px;">◆훈련과목</p>
-                            <p style="font-size: 0.7em; text-align: left; padding-left: 20px; margin-top: -20px;">● 정보능력<span style="padding-left: 352px;">● 웹 클라이언트 프로그래밍</span></p>
-                            <p style="font-size: 0.7em; text-align: left; padding-left: 20px; margin-top: -20px;">● 객체지향 프로그래밍<span style="padding-left: 270px;">● 웹 서버 프로그래밍</span></p>
-                            <p style="font-size: 0.7em; text-align: left; padding-left: 20px; margin-top: -20px;">● 관계형 데이터베이스<span style="padding-left: 270px;">● 실무 프로젝트 통합구현</span></p>
-                        </div>
+                            <div style="display: inline-block; ; width: 250px; font-weight: bold;">
+                                <li style="font-size: 0.6em; font-weight: normal; line-height: 20px; text-align: left; padding-left: 10px;">정보능력</li>
+                                <li style="font-size: 0.6em; font-weight: normal; line-height: 20px; text-align: left; padding-left: 10px;">객체지향 프로그래밍</li>
+                                                            
+                                
+                            </div>
+                            <div style="display: inline-block; ; width: 250px; font-weight: bold;">훈련과목
+                                <li style="font-size: 0.6em; font-weight: normal; line-height: 20px; text-align: left; padding-left: 10px;">관계형 데이터베이스</li>                 
+                                <li style="font-size: 0.6em; font-weight: normal; line-height: 20px; text-align: left; padding-left: 10px;">웹 클라이언트 프로그래밍</li>
+                            </div>      
+                            <div style="display: inline-block; ; width: 250px; font-weight: bold;">                                
+                                <li style="font-size: 0.6em; font-weight: normal; line-height: 20px; text-align: left; padding-left: 10px;">웹 서버 프로그래밍</li>
+                                <li style="font-size: 0.6em; font-weight: normal; line-height: 20px; text-align: left; padding-left: 10px;">실무 프로젝트 통합구현</li>                              
+                                
+                            </div>                            
+                        </div>                        
                         <p style="text-align: left; padding-left: 20px; font-weight: bold;">서원대학교 <span style="padding-left: 430px; font-weight: normal; font-size: 0.8em;">2012.03.02 ~ 2019.02.22</span></p> 
                         <p style="font-size: 0.6em; font-weight: bold; text-align: left; padding-left: 20px; margin-top: -60px;">컴퓨터교육과 전공</p>
-                        <div style="display: inline-block; border: 1px solid black; width: 250px; font-weight: bold;">전공
+                        <div style="display: inline-block; ; width: 250px; font-weight: bold;">전공
                             <li style="font-size: 0.6em; font-weight: normal; line-height: 20px; text-align: left; padding-left: 10px;">전산학개론및프로그래밍Ⅰ</li>
                             <li style="font-size: 0.6em; font-weight: normal; line-height: 20px; text-align: left; padding-left: 10px;">전산학개론및프로그래밍Ⅱ</li>
                             <li style="font-size: 0.6em; font-weight: normal; line-height: 20px; text-align: left; padding-left: 10px;">정보통신개론</li>
@@ -444,7 +465,7 @@
                             <li style="font-size: 0.6em; font-weight: normal; line-height: 20px; text-align: left; padding-left: 10px;">시스템분석및설계</li>                            
                             <li style="font-size: 0.6em; font-weight: normal; line-height: 20px; text-align: left; padding-left: 10px;">인공지능</li>
                         </div>
-                        <div style="display: inline-block; border: 1px solid black; width: 250px; font-weight: bold;">교직
+                        <div style="display: inline-block;  width: 250px; font-weight: bold;">교직
                             <li style="font-size: 0.6em; font-weight: normal; line-height: 20px; text-align: left; padding-left: 10px;">교육콘텐츠설계및개발</li>
                             <li style="font-size: 0.6em; font-weight: normal; line-height: 20px; text-align: left; padding-left: 10px;">정보컴퓨터논리논술</li>
                             <li style="font-size: 0.6em; font-weight: normal; line-height: 20px; text-align: left; padding-left: 10px;">정보컴퓨터교육론</li>
@@ -467,7 +488,7 @@
                             
                             
                         </div>
-                        <div style="display: inline-block; border: 1px solid black; width: 250px; font-weight: bold;">교양
+                        <div style="display: inline-block;  width: 250px; font-weight: bold;">교양
                             <li style="font-size: 0.6em; font-weight: normal; line-height: 20px; text-align: left; padding-left: 10px;">엑셀과파워포인트</li>
                             <li style="font-size: 0.6em; font-weight: normal; line-height: 20px; text-align: left; padding-left: 10px;">예비교사를위한컴퓨터활용</li>
                             <li style="font-size: 0.6em; font-weight: normal; line-height: 20px; text-align: left; padding-left: 10px;">초급영어강독</li>
@@ -546,5 +567,84 @@
         <script src="assets/js/breakpoints.min.js"></script>
         <script src="assets/js/util.js"></script>
         <script src="assets/js/main.js"></script>
+
+        <script>
+            $("#blackbox1").mouseover(function(){
+                $("#blackbox1").css("background-color","black")
+                $("#blackbox1txt").css("color","white")
+                $("#blackbox1txt").css("font-size","0.7em")
+                $("#blackbox1txt").text("JAVA 콘솔 프로젝트")
+                
+            });
+
+            $("#blackbox1").mouseout(function(){
+                $("#blackbox1").css("background-color","white")
+                $("#blackbox1txt").css("color","#666")
+                $("#blackbox1txt").css("font-size","1em")
+                $("#blackbox1txt").text("PaldalPlace")
+                
+            });
+            $("#blackbox2").mouseover(function(){
+                $("#blackbox2").css("background-color","black")
+                $("#blackbox2txt").css("color","white")
+                $("#blackbox2txt").css("font-size","0.7em")
+                $("#blackbox2txt").text("관계형 데이터베이스 기반의 SW 교육센터 운영 프로그램")
+                
+            });
+
+            $("#blackbox2").mouseout(function(){
+                $("#blackbox2").css("background-color","white")
+                $("#blackbox2txt").css("color","#666")
+                $("#blackbox2txt").css("font-size","1em")
+                $("#blackbox2txt").text("DoubleDragonCenter")
+                
+            });
+            $("#blackbox3").mouseover(function(){
+                $("#blackbox3").css("background-color","black")
+                $("#blackbox3txt").css("color","white")
+                $("#blackbox3txt").css("font-size","0.7em")
+                $("#blackbox3txt").text("Servlet과 JSP 기반의 티켓팅 사이트")
+                
+            });
+
+            $("#blackbox3").mouseout(function(){
+                $("#blackbox3").css("background-color","white")
+                $("#blackbox3txt").css("color","#666")
+                $("#blackbox3txt").css("font-size","1em")
+                $("#blackbox3txt").text("At-ticket")
+                
+            });
+            $("#blackbox4").mouseover(function(){
+                $("#blackbox4").css("background-color","black")
+                $("#blackbox4txt").css("color","white")
+                $("#blackbox4txt").css("font-size","0.7em")
+                $("#blackbox4txt").text("HTML5, CSS3, BootStrap를 이용한 싱글페이지 포트폴리오 정적 웹 사이트")
+                
+            });
+
+            $("#blackbox4").mouseout(function(){
+                $("#blackbox4").css("background-color","white")
+                $("#blackbox4txt").css("color","#666")
+                $("#blackbox4txt").css("font-size","1em")
+                $("#blackbox4txt").text("Portfolio")
+                
+            });
+            $("#blackbox5").mouseover(function(){
+                $("#blackbox5").css("background-color","black")
+                $("#blackbox5txt").css("color","white")
+                $("#blackbox5txt").css("font-size","0.7em")
+                $("#blackbox5txt").text("관계형 데이터베이스 기반 여행사이트 프로젝트")
+                
+            });
+
+            $("#blackbox5").mouseout(function(){
+                $("#blackbox5").css("background-color","white")
+                $("#blackbox5txt").css("color","#666")
+                $("#blackbox5txt").css("font-size","1em")
+                $("#blackbox5txt").text("YogiNolja")
+                
+            });
+           
+        </script>
     </body>
 </html>
