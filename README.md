@@ -4,8 +4,8 @@
 
 **윤대웅의 포트폴리오 | [▶ Preview](https://moods2.github.io/portfolio/)** 
 
-![DaeWoong Yoon's Portfolio](![포폴사이트](https://user-images.githubusercontent.com/65211288/91000112-5b57ea00-e603-11ea-9ec7-4936ad08cdfc.JPG)
-)
+![포폴사이트](https://user-images.githubusercontent.com/65211288/91000112-5b57ea00-e603-11ea-9ec7-4936ad08cdfc.JPG)
+
 
 ### 👋 Introduction
 
