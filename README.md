@@ -4,7 +4,7 @@
 
 **윤대웅의 포트폴리오 | [▶ Preview](https://moods2.github.io/portfolio/)** 
 
-![CHANMI KIM's Portfolio](asset/img/readme/portfolio-thumbnail.png "Preview")
+![DaeWoong Yoon's Portfolio](asset/img/readme/portfolio-thumbnail.png "Preview")
 
 ### 👋 Introduction
 
