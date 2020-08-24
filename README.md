@@ -59,10 +59,10 @@ Git Pages와 HTML5, CSS3, JavaScript를 이용한 싱글페이지 포트폴리�
         <th>Experience</th>
         <th>Project</th>
     </tr>
-    <tr>
-        <td><img width="266" src="asset/img/readme/portfolio-about.png"></td>
-        <td><img width="266" src="asset/img/readme/portfolio-experiences.png"></td>
-        <td><img width="266" src="asset/img/readme/portfolio-project.png"></td>
+    <tr>        
+        <td><img width="266" src="images/pic01.png""></td>
+        <td><img width="266" src="images/pic02.png""></td>
+        <td><img width="266" src="images/pic03.png""></td>
     </tr>
         <tr>
         <th>Skills</th>
@@ -70,9 +70,9 @@ Git Pages와 HTML5, CSS3, JavaScript를 이용한 싱글페이지 포트폴리�
         <th>Contact</th>
     </tr>
     <tr>
-        <td><img width="266" src="asset/img/readme/portfolio-skills.png"></td>
-        <td><img width="266" src="asset/img/readme/portfolio-education.png"></td>
-        <td><img width="266" src="asset/img/readme/portfolio-contact.png"></td>
+        <td><img width="266" src="images/pic04.png""></td>
+        <td><img width="266" src="images/pic05.png""></td>
+        <td><img width="266" src="images/pic06.png""></td>
     </tr>
 </table>
 
