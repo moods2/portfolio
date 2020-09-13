@@ -2,7 +2,7 @@
 
 # DaeWoong Yoon's Portfolio
 
-**윤대웅의 포트폴리오 | [▶ Preview](https://moods2.github.io/portfolio/)** 
+**윤대웅의 포트폴리오 | [▶ Preview](https://moods2.github.io/portfolio/)**  <-페이지 바로가기
 
 ![포폴사이트](https://user-images.githubusercontent.com/65211288/91000112-5b57ea00-e603-11ea-9ec7-4936ad08cdfc.JPG)
 
